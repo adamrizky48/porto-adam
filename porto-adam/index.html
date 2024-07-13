@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Portofolio Adam Rizky</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">.css">
+    <!-- MY CSS  -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js"></script>
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #001986">
+      <div class="container">
+        <a class="navbar-brand" href="#">Adam Rizky Darmawan</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" #contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+      <section class="jumbotron text-center">
+      <img src="img/poto1.jpeg" alt="Adam Rizky Darmawan" width="200" class="rounded-circle img-thumbnail" />
+      <h1 id="full_name" class="display-4">Adam Rizky Darmawan</h1>
+      <p id="job_position" class="lead">fotografer</p>
+      <svg xmlns="<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#001986" fill-opacity="1" d="M0,288L6.2,272C12.3,256,25,224,37,176C49.2,128,62,64,74,32C86.2,0,98,0,111,37.3C123.1,75,135,149,148,154.7C160,160,172,96,185,96C196.9,96,209,160,222,165.3C233.8,171,246,117,258,90.7C270.8,64,283,64,295,90.7C307.7,117,320,171,332,165.3C344.6,160,357,96,369,80C381.5,64,394,96,406,106.7C418.5,117,431,107,443,85.3C455.4,64,468,32,480,21.3C492.3,11,505,21,517,64C529.2,107,542,181,554,202.7C566.2,224,578,192,591,165.3C603.1,139,615,117,628,122.7C640,128,652,160,665,149.3C676.9,139,689,85,702,101.3C713.8,117,726,203,738,213.3C750.8,224,763,160,775,128C787.7,96,800,96,812,128C824.6,160,837,224,849,213.3C861.5,203,874,117,886,80C898.5,43,911,53,923,58.7C935.4,64,948,64,960,101.3C972.3,139,985,213,997,250.7C1009.2,288,1022,288,1034,277.3C1046.2,267,1058,245,1071,229.3C1083.1,213,1095,203,1108,202.7C1120,203,1132,213,1145,197.3C1156.9,181,1169,139,1182,128C1193.8,117,1206,139,1218,138.7C1230.8,139,1243,117,1255,112C1267.7,107,1280,117,1292,138.7C1304.6,160,1317,192,1329,186.7C1341.5,181,1354,139,1366,128C1378.5,117,1391,139,1403,133.3C1415.4,128,1428,96,1434,80L1440,64L1440,320L1433.8,320C1427.7,320,1415,320,1403,320C1390.8,320,1378,320,1366,320C1353.8,320,1342,320,1329,320C1316.9,320,1305,320,1292,320C1280,320,1268,320,1255,320C1243.1,320,1231,320,1218,320C1206.2,320,1194,320,1182,320C1169.2,320,1157,320,1145,320C1132.3,320,1120,320,1108,320C1095.4,320,1083,320,1071,320C1058.5,320,1046,320,1034,320C1021.5,320,1009,320,997,320C984.6,320,972,320,960,320C947.7,320,935,320,923,320C910.8,320,898,320,886,320C873.8,320,862,320,849,320C836.9,320,825,320,812,320C800,320,788,320,775,320C763.1,320,751,320,738,320C726.2,320,714,320,702,320C689.2,320,677,320,665,320C652.3,320,640,320,628,320C615.4,320,603,320,591,320C578.5,320,566,320,554,320C541.5,320,529,320,517,320C504.6,320,492,320,480,320C467.7,320,455,320,443,320C430.8,320,418,320,406,320C393.8,320,382,320,369,320C356.9,320,345,320,332,320C320,320,308,320,295,320C283.1,320,271,320,258,320C246.2,320,234,320,222,320C209.2,320,197,320,185,320C172.3,320,160,320,148,320C135.4,320,123,320,111,320C98.5,320,86,320,74,320C61.5,320,49,320,37,320C24.6,320,12,320,6,320L0,320Z"></path></svg>
+    <!-- Akhir Jumbotron -->
+
+    <!-- About -->
+    <section id="About">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Tentang saya</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-4">
+            <p>Hallo, Perkenalkan nama saya Adam Rizky Darmawan, saya seorang mahasiswa di Universitas Galuh Ciamis. Saya minat di bidang fotografer.</p>
+          </div>
+          <div class="col-md-4">
+            <p>Berpengalaman 1 tahun dalam fotografer , mengedit foto, color grading saya suka mengedit fotografer di Linghroom,Oldroll,photoshop semenjak masih dibangku sekolah SMK.</p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#001986" fill-opacity="1" d="M0,192L6.9,176C13.7,160,27,128,41,122.7C54.9,117,69,139,82,128C96,117,110,75,123,90.7C137.1,107,151,181,165,186.7C178.3,192,192,128,206,112C219.4,96,233,128,247,138.7C260.6,149,274,139,288,133.3C301.7,128,315,128,329,154.7C342.9,181,357,235,370,245.3C384,256,398,224,411,213.3C425.1,203,439,213,453,202.7C466.3,192,480,160,494,138.7C507.4,117,521,107,535,138.7C548.6,171,562,245,576,245.3C589.7,245,603,171,617,144C630.9,117,645,139,658,176C672,213,686,267,699,277.3C713.1,288,727,256,741,256C754.3,256,768,288,782,304C795.4,320,809,320,823,304C836.6,288,850,256,864,250.7C877.7,245,891,267,905,250.7C918.9,235,933,181,946,144C960,107,974,85,987,106.7C1001.1,128,1015,192,1029,218.7C1042.3,245,1056,235,1070,213.3C1083.4,192,1097,160,1111,170.7C1124.6,181,1138,235,1152,240C1165.7,245,1179,203,1193,192C1206.9,181,1221,203,1234,197.3C1248,192,1262,160,1275,144C1289.1,128,1303,128,1317,117.3C1330.3,107,1344,85,1358,101.3C1371.4,117,1385,171,1399,186.7C1412.6,203,1426,181,1433,170.7L1440,160L1440,320L1433.1,320C1426.3,320,1413,320,1399,320C1385.1,320,1371,320,1358,320C1344,320,1330,320,1317,320C1302.9,320,1289,320,1275,320C1261.7,320,1248,320,1234,320C1220.6,320,1207,320,1193,320C1179.4,320,1166,320,1152,320C1138.3,320,1125,320,1111,320C1097.1,320,1083,320,1070,320C1056,320,1042,320,1029,320C1014.9,320,1001,320,987,320C973.7,320,960,320,946,320C932.6,320,919,320,905,320C891.4,320,878,320,864,320C850.3,320,837,320,823,320C809.1,320,795,320,782,320C768,320,754,320,741,320C726.9,320,713,320,699,320C685.7,320,672,320,658,320C644.6,320,631,320,617,320C603.4,320,590,320,576,320C562.3,320,549,320,535,320C521.1,320,507,320,494,320C480,320,466,320,453,320C438.9,320,425,320,411,320C397.7,320,384,320,370,320C356.6,320,343,320,329,320C315.4,320,302,320,288,320C274.3,320,261,320,247,320C233.1,320,219,320,206,320C192,320,178,320,165,320C150.9,320,137,320,123,320C109.7,320,96,320,82,320C68.6,320,55,320,41,320C27.4,320,14,320,7,320L0,320Z"></path></svg>
+    </section>
+    <!-- Akhir About -->
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>My Projects</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/projects/poto1.jpeg" class="card-img-top" alt="projects 1" />
+              <div class="card-body">
+                <p class="card-text">Tool yang saya gunakan</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/projects/poto2.jpeg" class="card-img-top" alt="projects 2" />
+              <div class="card-body">
+                <p class="card-text">Hasil fotografer Saya</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/projects/poto3.jpeg" class="card-img-top" alt="projects 3" />
+              <div class="card-body">
+                <p class="card-text">Hasil fotografer Saya</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/projects/poto4.jpeg" class="card-img-top" alt="projects 4" />
+              <div class="card-body">
+                <p class="card-text">Hasil fotografer Saya</p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,96L48,85.3C96,75,192,53,288,85.3C384,117,480,203,576,218.7C672,235,768,181,864,176C960,171,1056,213,1152,213.3C1248,213,1344,171,1392,149.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!-- Akhir Projects -->
+    <!-- tabel -->
+  <section id="skills">
+    <div class="container">
+      <div id="message"></div>
+      <h1 class="mt-4 mb-4 text-center text">SKILLS CRUD</h1>
+      <div class="card">
+        <div class="card-header">
+          <div class="row">
+            <div class="col col-sm-9">SKILLS</div>
+            <div class="col col-sm-3">
+              <button type="button" id="add_data" class="btn btn-primary btn-sm float-end"><i class="bi bi-plus-lg"></i>ADD</button>
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table table-striped table-bordered" id="sample_data">
+              <thead>
+                <tr>
+                  <th>User Id</th>
+                  <th>Skill Name</th>
+                  <th>Rating</th>
+                  <th>Description</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="modal" tabindex="-1" id="action_modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <form method="post" id="sample_form">
+              <div class="modal-header">
+                <h5 class="modal-title" id="dynamic_modal_title"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="mb-3">
+                  <label class="form-label">User Id</label>
+                  <input type="text" name="user_id" id="user_id" class="form-control" />
+                  <span id="user_id_error" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Skill Name</label>
+                  <input type="skill_name" name="skill_name" id="skill_name" class="form-control" />
+                  <span id="skill_name_error" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Rating</label>
+                  <input type="rating" name="rating" id="rating" class="form-control" />
+                  <span id="rating_error" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Description</label>
+                  <input type="text" name="description" id="description" class="form-control" />
+                  <span id="description_error" class="text-danger"></span>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <input type="hidden" name="id" id="id" />
+                <input type="hidden" name="action" id="action" value="Add" />
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                  Close
+                </button>
+                <button type="submit" class="btn btn-primary" id="action_button">
+                  Add
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end tabel -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="Name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" />
+              </div>
+              <div class="mb-3">
+                <label for="Pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="Pesan" rows="3"></textarea>
+              </div>
+              <button type="kirim" class="btn btn-primary"> Kirim </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#001986" fill-opacity="1" d="M0,192L6.9,176C13.7,160,27,128,41,122.7C54.9,117,69,139,82,128C96,117,110,75,123,90.7C137.1,107,151,181,165,186.7C178.3,192,192,128,206,112C219.4,96,233,128,247,138.7C260.6,149,274,139,288,133.3C301.7,128,315,128,329,154.7C342.9,181,357,235,370,245.3C384,256,398,224,411,213.3C425.1,203,439,213,453,202.7C466.3,192,480,160,494,138.7C507.4,117,521,107,535,138.7C548.6,171,562,245,576,245.3C589.7,245,603,171,617,144C630.9,117,645,139,658,176C672,213,686,267,699,277.3C713.1,288,727,256,741,256C754.3,256,768,288,782,304C795.4,320,809,320,823,304C836.6,288,850,256,864,250.7C877.7,245,891,267,905,250.7C918.9,235,933,181,946,144C960,107,974,85,987,106.7C1001.1,128,1015,192,1029,218.7C1042.3,245,1056,235,1070,213.3C1083.4,192,1097,160,1111,170.7C1124.6,181,1138,235,1152,240C1165.7,245,1179,203,1193,192C1206.9,181,1221,203,1234,197.3C1248,192,1262,160,1275,144C1289.1,128,1303,128,1317,117.3C1330.3,107,1344,85,1358,101.3C1371.4,117,1385,171,1399,186.7C1412.6,203,1426,181,1433,170.7L1440,160L1440,320L1433.1,320C1426.3,320,1413,320,1399,320C1385.1,320,1371,320,1358,320C1344,320,1330,320,1317,320C1302.9,320,1289,320,1275,320C1261.7,320,1248,320,1234,320C1220.6,320,1207,320,1193,320C1179.4,320,1166,320,1152,320C1138.3,320,1125,320,1111,320C1097.1,320,1083,320,1070,320C1056,320,1042,320,1029,320C1014.9,320,1001,320,987,320C973.7,320,960,320,946,320C932.6,320,919,320,905,320C891.4,320,878,320,864,320C850.3,320,837,320,823,320C809.1,320,795,320,782,320C768,320,754,320,741,320C726.9,320,713,320,699,320C685.7,320,672,320,658,320C644.6,320,631,320,617,320C603.4,320,590,320,576,320C562.3,320,549,320,535,320C521.1,320,507,320,494,320C480,320,466,320,453,320C438.9,320,425,320,411,320C397.7,320,384,320,370,320C356.6,320,343,320,329,320C315.4,320,302,320,288,320C274.3,320,261,320,247,320C233.1,320,219,320,206,320C192,320,178,320,165,320C150.9,320,137,320,123,320C109.7,320,96,320,82,320C68.6,320,55,320,41,320C27.4,320,14,320,7,320L0,320Z"></path></svg>
+    </section>
+    <!-- Akhir Contact -->
+
+    <!-- Footer -->
+    <footer class="bg-color=#f7c9c9 text-black text-center pb-5">
+      <p>Contact Person by <i class="bi bi-instagram"></i><a href="https://www.instagram.com/adamrzkyyy_?igsh=MThhcHlqeXlwaHR3eQ%3D%3D&utm_source=qr"class=text-black>Adam Rizky Darmawan</a></p>
+    </footer>
+    <!-- Akhir Footer -->
+<script>
+   $(document).ready(function() {
+            showAll();
+
+            $('#add_data').click(function() {
+                $('#dynamic_modal_title').text('Add Biodata User');
+                $('#sample_form')[0].reset();
+                $('#action').val('Add');
+                $('#action_button').text('Add');
+                $('.text-danger').text('');
+                $('#action_modal').modal('show');
+            });
+
+            $('#sample_form').on('submit', function(event) {
+                event.preventDefault();
+                if ($('#action').val() == "Add") {
+                    var formData = {
+                        'user_id': $('#user_id').val(),
+                        'skill_name': $('#skill_name').val(),
+                        'rating': $('#rating').val(),
+                        'description': $('#description').val()
+                    }
+
+                    $.ajax({
+                        url: "https://adamrizky323.amisbudi.cloud/porto-adam/si-admin/api/skills/create.php",
+                        method: "POST",
+                        data: JSON.stringify(formData),
+                        success: function(data) {
+                            $('#action_button').attr('disabled', false);
+                            $('#message').html('<div class="alert alert-success">' + data.message + '</div>');
+                            $('#action_modal').modal('hide');
+                            $('#sample_data').DataTable().destroy();
+                            showAll();
+                        },
+                        error: function(err) {
+                            console.log(err);
+                        }
+                    });
+                } else if ($('#action').val() == "Update") {
+                    var formData = {
+                        'id': $('#id').val(),
+                        'user_id': $('#user_id').val(),
+                        'skill_name': $('#skill_name').val(),
+                        'rating': $('#rating').val(),
+                        'description': $('#description').val()
+                    }
+
+                    $.ajax({
+                        url: "/web-porto/si-admin/api/skills/update.php",
+                        method: "PUT",
+                        data: JSON.stringify(formData),
+                        success: function(data) {
+                            $('#action_button').attr('disabled', false);
+                            $('#message').html('<div class="alert alert-success">' + data.message + '</div>');
+                            $('#action_modal').modal('hide');
+                            $('#sample_data').DataTable().destroy();
+                            showAll();
+                        },
+                        error: function(err) {
+                            console.log(err);
+                        }
+                    });
+                }
+            });
+        });
+
+        function showAll() {
+            $.ajax({
+                type: "GET",
+                contentType: "application/json",
+                url: "https://adamrizky323.amisbudi.cloud/porto-adam/si-admin/api/skills/read.php",
+                success: function(response) {
+                    // console.log(response);
+                    var json = response.body;
+                    var dataSet = [];
+                    for (var i = 0; i < json.length; i++) {
+                        var sub_array = {
+                            user_id: json[i].user_id,
+                            skill_name: json[i].skill_name,
+                            rating: json[i].rating,
+                            description: json[i].description,
+                            action: '<button onclick="showOne(' +
+                                json[i].id +
+                                ')" class="btn btn-sm btn-warning"><i class="bi bi-pencil-square"></i>Edit</button>' +
+                                '<button onclick="deleteOne(' +
+                                json[i].id +
+                                ')" class="btn btn-sm btn-danger mx-2"> <i class="bi bi-trash3"></i>Delete</button>',
+                        };
+                        dataSet.push(sub_array);
+                    }
+                    $("#sample_data").DataTable({
+                        data: dataSet,
+                        columns: [{
+                                data: "user_id",
+                            },
+                            {
+                                data: "skill_name",
+                            },
+                            {
+                                data: "rating",
+                            },
+                            {
+                                data: "description",
+                            },
+                            {
+                                data: "action",
+                            },
+                        ],
+                    });
+                },
+                error: function(err) {
+                    console.log(err);
+                },
+            });
+        }
+
+        function showOne(id) {
+            $('#dynamic_modal_title').text('Edit Biodata User');
+            $('#sample_form')[0].reset();
+            $('#action').val('Update');
+            $('#action_button').text('Update');
+            $('.text-danger').text('');
+            $('#action_modal').modal('show');
+
+            $.ajax({
+                type: "GET",
+                contentType: "application/json",
+                url: "https://adamrizky323.amisbudi.cloud/porto-adam/si-admin/api/skills/read.php?id=" + id,
+                success: function(response) {
+                    $('#id').val(response.id);
+                    $('#user_id').val(response.user_id);
+                    $('#skill_name').val(response.skill_name);
+                    $('#rating').val(response.rating);
+                    $('#description').val(response.description);
+                },
+                error: function(err) {
+                    console.log(err);
+                }
+            });
+        }
+
+        function deleteOne(id) {
+            var konfirmasiUser = confirm("Yakin untuk hapus data ?");
+            if (konfirmasiUser) {
+                $.ajax({
+                    url: "https://adamrizky323.amisbudi.cloud/porto-adam/si-admin/api/skills/delete.php",
+                    method: "DELETE",
+                    data: JSON.stringify({
+                        id: id,
+                    }),
+                    success: function(data) {
+                        $("#action_button").attr("disabled", false);
+                        $("#message").html('<div class="alert alert-success">' + data + "</div>");
+                        $("#action_modal").modal("hide");
+                        $("#sample_data").DataTable().destroy();
+                        showAll();
+                    },
+                    error: function(err) {
+                        console.log(err);
+                        $("#message").html('<div class="alert alert-danger">' + err.responseJSON + '</div>');
+                    },
+                });
+            }
+        }
+        $(document).ready(function() {
+      showAll();
+
+      function showAll() {
+        $.ajax({
+          type: "GET",
+          contentType: "application/json",
+          url: "https://adamrizky323.amisbudi.cloud/porto-adam/si-admin/api/users/read.php?id=3",
+          success: function(response) {
+            $("#full_name").text(response.full_name); //mengubah elemen html dengan .text(nilai) atau .html(nilai)
+            $("#job_position").text(response.job + " | " + response.expected_position);
+          },
+          error: function(err) {
+
+          }
+        })
+      }
+    })
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
